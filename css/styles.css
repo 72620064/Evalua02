@@ -1,0 +1,138 @@
+
+table{
+    width: 75%;
+    margin:0 auto;
+}
+.barnav{
+    font-size: 18px;
+    background-color: white;
+}
+.barnav th{
+    text-align: left;
+}
+.barnav td{
+    text-align: right;
+}
+.barnav img{
+    width:14px;
+    text-align: right;
+}
+.barimg1{
+    width: 72%;
+    background-attachment: fixed;
+    position: absolute;
+    height: 200px;
+    z-index: -4;
+    margin-top: -10px;
+}
+.barimg2{
+    position: absolute;
+    background-color: white;
+    left:36%;
+    width: 200px;
+    height: 200px;
+    z-index: -3;
+    border-radius:100%;
+    border:5px solid white;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.barimg3{
+    position: relative;
+    left:42%;
+    width: 200px;
+    height: 200px;
+    z-index: -2;
+    border-radius: 100%;
+    border:5px solid white;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.barimg4{
+    position: absolute;
+    left:52%;
+    width: 200px;
+    height: 200px;
+    z-index: -3;
+    border-radius:100%;
+    border:5px solid white;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.NuePro{
+    text-align: center;
+}
+.NuePro caption{
+    color: gray;
+    background-color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-block: 10px;
+}
+.NuePro img{
+    width: 200px;
+}
+.NuePro th{
+    color:rgb(73, 73, 73);
+}
+.NuePro hr{
+    background-color:rgb(73, 73, 73);
+    width: 50%;
+    height: 1px;
+    border:none;
+}
+.NuePro td{
+    color: gray;
+}
+.historia th{
+    width:65%;
+    padding-left: 30px;
+    color: rgb(73, 73, 73);
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+}
+.historia{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: palegoldenrod;
+}
+.historia img{
+    height:450px;
+    padding-inline:10%;
+}
+.historia td{
+    color: gray;
+    font-size: 17px;
+    text-align: justify;
+    padding-inline: 10px;
+    padding-left: 50px;
+
+}
+.historia button{
+    color:white;
+    font-family: 'Times New Roman';
+    padding:10px 15px;
+    font-size:17px;
+    background-color: rgb(165, 112, 42);
+    border-radius: 30px;
+    border:1px solid rgb(165, 112, 42)
+}
+.historia button:hover{
+    background-color: rgb(218, 131, 18);
+    border:1px solid rgb(218, 131, 18);
+    cursor:pointer;
+}
+.piePan{
+    padding-block: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(165, 112, 42);
+}
+.piePan img{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 40px
+}
